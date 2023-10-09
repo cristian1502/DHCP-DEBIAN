@@ -1,22 +1,22 @@
 # Instalación y configuración en un servidor debian
 
-[1.Introduccion](#Introduccion)  
-[2.Configuracion de la ip](#Configuraciondelaip)  
-[3.Instalacion del servidor](#Configuraciondelservidor)  
-[4.Configuracion de la tarjeta que escucha](#Configuraciontarjeta)  
-[5.Ejemplo práctico](#Ejemplopráctico)  
-[6.Si no funciona](#syslog)
+[1.Introduccion](#1-introduccion)  
+[2.Configuracion de la ip](#2-configuracion-de-la-ip)  
+[3.Instalacion del servidor](#3-instalacion-de-un-servidor)  
+[4.Configuracion de la tarjeta que escucha](#4-configuración-de-una-tarjeta)  
+[5.Ejemplo práctico](#5-ejemplo-práctico)  
+[6.Si no funciona](#6-syslog)
 
-1. Introduccion  
+# 1. Introduccion  
 Este es un documento realizado con el fin de hacer una configuracion de un servidor en debian .
-2. Configuracion de la ip  
+# 2. Configuracion de la ip  
 Para configurar la ip de el servidor tendremos que ir a configuración y a red, nos metemos dentro de la tarjeta de red y le asignamos a mano la ip, puerta de enlace, DNS y la puerta de enlace
-3. Instalacion de un servidor  
+# 3. Instalacion de un servidor  
 Para la instalación del servidor usaremos el siguiente comando  
 ![captura](img/Captura3.PNG)  
-4. Configuración de una tarjeta  
+# 4. Configuración de una tarjeta  
  Una vez instalados los paquetes modificaremos el fichero dhcp.conf para modificar la tarjeta que escucha
-5. Ejemplo práctico  
+# 5. Ejemplo práctico  
 5.1 Configuramos la tarjeta de red con la ip , mascara, puerta de enlace y dns que tenemos que poner en la maquina de debian 
 ![captura](img/Captura1.PNG)
 5.2 Instalamos el paquete necesario para la configuración  
@@ -40,7 +40,7 @@ Aqui ponemos la direccion mac de la red interna y la ip reservada para nuestro c
 5.6 Aqui compruebo que se ha asignado la ip correctamente
 ![captura](img/Captura19.PNG)  
 
-6. syslog  
+# 6. Syslog  
 6.1  Instalamos el paquete  
 ![captura](img/Captura15.PNG)  
 6.2  
